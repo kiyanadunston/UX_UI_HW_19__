@@ -1,0 +1,181 @@
+h1 {
+    font-family: "Comfortaa", serif;
+}
+
+
+
+button {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Comfortaa", serif;
+}
+
+
+body {
+    margin: 5%;
+    cursor: pointer;
+}
+
+
+h3 {
+    font-family: "Quicksand", serif;
+}
+    
+    
+h4 {
+    font-family: "Comfortaa", serif;
+}
+    
+    
+p {
+    font-family: "Quicksand", serif;
+    font-size: 14px;
+}
+
+.projects {
+    font-family: "Comfortaa", serif;
+}
+    
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Comfortaa", serif;
+}
+
+.subheader {
+    font-family: "Comfortaa", serif;
+    float: right;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    float: left;
+}
+    
+
+nav {
+    width: 90%;
+    padding: 1%;
+    margin-left: 19%;
+    font-weight: bold;
+}
+
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navitem {
+    justify-content: space-between;
+    padding: 1%
+}
+
+.footeritem {
+    justify-content: space-between;
+    padding: 1%
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+  }
+    
+    
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+    
+.content {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mySkills div {
+    width: 50%;
+    margin: 0%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.myWork div {
+    width: 70%;
+    margin: 0%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+.workGrid {
+    display: grid;
+    grid-area: myWork;
+    width: 90%;
+    margin: 0%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'myWork myWork';
+    width: 90%;
+    margin: 0%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  footer {
+    width: 90%;
+    margin: 0%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: "Comfortaa", "serif";
+}
+
+
+  @media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: auto;
+        grid-template-areas: 'myWork';
+    }
+  }
